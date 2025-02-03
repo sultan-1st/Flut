@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "metro-user-data",
+          "appId": "1:588796688014:android:b62568e8416165e67a7bdf",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "metro-user-data",
+          "configurations": {
+            "android": "1:588796688014:android:b62568e8416165e67a7bdf",
+            "ios": "1:588796688014:ios:fb6101554620b0ea7a7bdf",
+            "macos": "1:588796688014:ios:fb6101554620b0ea7a7bdf",
+            "web": "1:588796688014:web:eb7eb50afc1dd5217a7bdf",
+            "windows": "1:588796688014:web:a03610ed63d0bc377a7bdf"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "dataconnect": {
+      "dataDir": "dataconnect/.dataconnect/pgliteData"
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  }
+}
